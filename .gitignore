@@ -1,0 +1,14 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/build
+
+# Mac
+.DS_Store
+
+
+.class
