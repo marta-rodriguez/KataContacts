@@ -1,4 +1,4 @@
-package rodriguez.marta.entities;
+package rodriguez.marta.katacontacts.entities;
 
 /**
  * Created by marta on 31/03/16.

@@ -1,6 +1,6 @@
-package rodriguez.marta.repositories.contacts;
+package rodriguez.marta.katacontacts.repositories.contacts;
 
-import rodriguez.marta.entities.Contact;
+import rodriguez.marta.katacontacts.entities.Contact;
 
 import java.util.List;
 

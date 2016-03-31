@@ -1,4 +1,4 @@
-package rodriguez.marta;
+package rodriguez.marta.katacontacts;
 
 public class Main {
 
