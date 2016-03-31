@@ -20,11 +20,18 @@ public class ContactsPresenter {
         this.getContacts = getContacts;
     }
 
-    public void newContact(String name, String phone) {
+    public void onResume() {
+        view.showContacts(getContacts.execute());
+        //view request name
+        //view request phone
+        //add contact
+    }
+
+   /* public void newContact(String name, String phone) {
         addContact.execute(new Contact(name, phone));
     }
 
     public void needContacts() {
         view.showContacts(getContacts.execute());
-    }
+    }*/
 }
