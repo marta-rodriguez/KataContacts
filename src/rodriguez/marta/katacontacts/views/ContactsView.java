@@ -10,4 +10,18 @@ import java.util.List;
 public interface ContactsView {
 
     void showContacts(List<Contact> contacts);
+
+    void showWelcomeMessage();
+
+    void showGoodbyeMessage();
+
+    String getNewContactFirstName();
+
+    String getNewContactLastName();
+
+    String getNewContactPhoneNumber();
+
+    void showDefaultError();
+
+    void showEmptyCase();
 }
