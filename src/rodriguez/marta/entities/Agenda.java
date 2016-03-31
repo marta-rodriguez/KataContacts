@@ -8,14 +8,14 @@ import java.util.List;
  */
 public class Agenda {
 
-
+    private ArrayList<Contact> contacts;
 
     public void addContact(Contact contact) {
-
+        contacts.add(contact);
     }
 
     public List<Contact> getContacts() {
-        return null;
+        return contacts;
     }
 
 }
